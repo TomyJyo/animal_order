@@ -18,7 +18,7 @@ let int_Input = 0
 let bol_Answering = false
 let str_AniNam = ""
 let int_AniNam = 0
-customEditor.addMemo("動物の名前を順番を記憶してマイコンが指定した動物が何番目にあるかを当てるゲーム")
+customEditor.addMemo("動物の名前を順番を記憶してマイコンが指定した動物が何番目だったかを当てるゲーム")
 customEditor.addMemo("「配列」の基本的な使い方のプログラミング事例")
 customEditor.addMemo("何番目かを間違えた時、すべて正解回答した時はゲームオーバー")
 customEditor.addMemo("ゲームオーバー後の再起動はボタンＡ+Ｂで押す")

@@ -120,6 +120,7 @@ basic.forever(function () {
         game.addScore(1)
     } else {
         basic.showIcon(IconNames.Sad)
+        basic.pause(1000)
         music._playDefaultBackground(music.builtInPlayableMelody(Melodies.Dadadadum), music.PlaybackMode.InBackground)
         game.gameOver()
     }
